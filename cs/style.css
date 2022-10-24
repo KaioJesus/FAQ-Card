@@ -18,7 +18,7 @@ main{
 }
 
 .card{
-    display: block;
+    display: flex;
     background-color: #ffffff;
     border-radius: 30px;
     width: 70%;
@@ -27,8 +27,22 @@ main{
     padding: 30px;
 }
 
+.card-img{
+    /* position: absolute; */
+    margin-right: 32px;
+}
+
+.card-ask__answer{
+    margin: 16px 0;;
+}
+
 h1 {
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
+}
+
+.box{
+    position: absolute;
+    top: 250px;
+    left: 230px;
 }

@@ -1,0 +1,34 @@
+.card{
+    width: 70%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+body {
+    width: 1440px;
+    font-family: 'Overpass', sans-serif;
+    background: linear-gradient(hsl(228, 45%, 44%), hsl(266, 45%, 44%), hsl(266, 49%, 36%));
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: block;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 70%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}

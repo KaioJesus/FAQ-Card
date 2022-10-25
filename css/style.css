@@ -15,6 +15,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .card{
@@ -36,7 +37,7 @@ main{
     margin: 16px 0;
 }
 
-.card-ask__answer-p{
+.card-ask__answer-p-answer{
     display: none;
 }
 
@@ -49,4 +50,15 @@ h1 {
     position: absolute;
     top: 250px;
     left: 230px;
+}
+
+.showMessage{
+    /* border: none; */
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-color: papayawhip;
+}
+
+.showMessage:focus{
 }

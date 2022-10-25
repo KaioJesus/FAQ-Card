@@ -7,7 +7,7 @@
 body {
     width: 1440px;
     font-family: 'Overpass', sans-serif;
-    background: linear-gradient(hsl(228, 45%, 44%), hsl(266, 45%, 44%), hsl(266, 49%, 36%));
+    background: linear-gradient(hsl(266, 45%, 49%), hsl(265, 32%, 51%), hsl(228, 45%, 44%));
 }
 
 main{
@@ -30,10 +30,15 @@ main{
 .card-img{
     /* position: absolute; */
     margin-right: 32px;
+    filter: drop-shadow(5px 5px 5px #222)
 }
 
 .card-ask__answer{
-    margin: 16px 0;;
+    margin: 16px 0;
+}
+
+.card-ask__answer-p{
+    display: none;
 }
 
 h1 {

@@ -1,5 +1,6 @@
-const clicarshow = document.querySelector('card-ask__answer-p"')
+const clicarshow = document.querySelector('card-ask__answer-p-question');
+const pergunta = document.querySelector('card-ask__answer-p-ask')
 
 function askFaq (){
-    clicarshow.style.display = 'block';
+    onlick = clicarshow.style.display = 'block';
 }

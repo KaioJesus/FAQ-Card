@@ -1,5 +1,5 @@
 const clicarshow = document.querySelectorAll('.card-ask__answer-p-answer');
-const pergunta = document.querySelector('.card-ask__answer-p-ask')
+const pergunta = document.querySelectorAll('.card-ask__answer-p-ask')
 
 
 const botaoshow = document.querySelectorAll('.showMessage')

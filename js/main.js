@@ -7,7 +7,7 @@ const botaoshow = document.querySelectorAll('.showMessage')
 for(let i = 0; i < botaoshow.length; i++){
     const botao = botaoshow[i];
     
-    botaoshow.onclick = function(){
+    botao.onclick = function(){
         clicarshow.style.display = 'block';
         // if (botaoshow.onclick == 'ativa'){
         //     botaoshow.onclick = cliclarshow.style.display ='none';

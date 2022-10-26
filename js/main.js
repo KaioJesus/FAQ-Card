@@ -6,9 +6,10 @@ const botaoshow = document.querySelectorAll('.showMessage')
 
 for(let i = 0; i < botaoshow.length; i++){
     const botao = botaoshow[i];
+    const clickAparecer = clicarshow[i];
     
     botao.onclick = function(){
-        clicarshow.style.display = 'block';
+        clickAparecer.style.display = 'block';
         // if (botaoshow.onclick == 'ativa'){
         //     botaoshow.onclick = cliclarshow.style.display ='none';
         // }

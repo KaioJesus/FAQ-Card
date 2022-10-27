@@ -9,9 +9,10 @@ for(let i = 0; i < botaoshow.length; i++){
     const clickAparecer = clicarshow[i];
     
     botao.onclick = function(){
-        clickAparecer.style.display = 'block';
-        // if (botaoshow.onclick == 'ativa'){
-        //     botaoshow.onclick = cliclarshow.style.display ='none';
-        // }
+        if (clickAparecer.style.display == 'none'){
+            clickAparecer.style.display = 'block'
+        }else{
+            clickAparecer.style.display = 'none'
+        }
     }
 }

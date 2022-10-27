@@ -33,12 +33,22 @@ main{
     margin-right: 32px;
 }
 
+.box{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
 .card-ask__answer{
-    margin: 16px 0;
+    margin: 32px 0 16px 0;
+    display: flex; 
+    justify-content: space-between;
+    
 }
 
 .card-ask__answer-p-answer{
     display: none;
+    /* border-bottom: 1px solid rgb(204, 204, 204); */
 }
 
 h1 {
@@ -46,18 +56,24 @@ h1 {
     font-weight: bold;
 }
 
-.box{
-    position: absolute;
-    top: 250px;
-    left: 230px;
-}
-
 .showMessage{
     /* border: none; */
-    width: 20px;
-    height: 20px;
-    display: flex;
-    background-color: papayawhip;
+    border: none;
+    background-color: white;
+    margin-left: 90px;
+    transition: 0.5s;
+}
+
+.arrow {
+    border: 1px solid rgb(241, 204, 144);;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 .showMessage:focus{

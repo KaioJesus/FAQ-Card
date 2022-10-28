@@ -15,7 +15,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 
 .card{
@@ -62,6 +61,11 @@ h1 {
     background-color: white;
     margin-left: 90px;
     transition: 0.5s;
+    cursor: pointer;
+}
+
+.showMessage:hover{
+    transform: scale(1.1) rotate(45deg);
 }
 
 .arrow {
@@ -77,4 +81,28 @@ h1 {
 }
 
 .showMessage:focus{
+}
+
+@media screen and (max-width: 560px) {
+    body{
+        /* background: linear-gradient(hsl(266, 45%, 49%), hsl(265, 32%, 51%), hsl(228, 45%, 44%));
+        background-repeat: no-repeat; */
+    }
+
+    main{
+        display: block;
+    }
+
+    .card{
+        width: 0 auto;
+        display: block;
+    }
+
+    .box{
+        height
+    }
+
+    .card-img{
+        text-align: center;
+    }
 }

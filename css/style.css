@@ -80,29 +80,37 @@ h1 {
     -webkit-transform: rotate(45deg);
 }
 
-.showMessage:focus{
-}
-
 @media screen and (max-width: 560px) {
     body{
         /* background: linear-gradient(hsl(266, 45%, 49%), hsl(265, 32%, 51%), hsl(228, 45%, 44%));
         background-repeat: no-repeat; */
     }
-
+    
     main{
         display: block;
     }
-
+    
     .card{
-        width: 0 auto;
         display: block;
+        margin: auto auto;
+        width: fit-content;
+    }
+    
+    h1{
+        text-align: center;
+        margin: 64px 0;
     }
 
     .box{
-        height
+        top: 175px;
+        left: 475px;
     }
 
     .card-img{
         text-align: center;
+    }
+
+    .imgpc{
+        top: 100px;
     }
 }

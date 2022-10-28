@@ -23,7 +23,6 @@ main{
     border-radius: 30px;
     width: 70%;
     height: fit-content;
-    box-sizing: border-box;
     padding: 30px;
 }
 
@@ -80,10 +79,9 @@ h1 {
     -webkit-transform: rotate(45deg);
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 480px) {
     body{
-        /* background: linear-gradient(hsl(266, 45%, 49%), hsl(265, 32%, 51%), hsl(228, 45%, 44%));
-        background-repeat: no-repeat; */
+        background-repeat: no-repeat;
     }
     
     main{
